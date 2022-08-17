@@ -1,0 +1,32 @@
+{
+    "name": "curso-rest-api",
+    "version": "1.0.0",
+    "description": "## Curso Express y MongoDB",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Webtoriales/curso-express-mongodb.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Webtoriales/curso-express-mongodb/issues"
+    },
+    "homepage": "https://github.com/Webtoriales/curso-express-mongodb#readme",
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "helmet": "^4.2.0",
+      "mongoose": "^5.10.15",
+      "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.6"
+    }
+  }
